@@ -155,8 +155,8 @@ class DataStream:
 
     def register_processor(self, proc: DataProcessor) -> None:
         if any(map(lambda x: type(proc) is type(x), self.__data_processor)):
-            return print(f"{type(proc).__name__.replace(
-                "Processor", " Processor")} already registered")
+            return print(type(proc).__name__.replace("Processor", " Processor")
+                         + " already registered")
         self.__data_processor.append(proc)
 
     def process_stream(self, stream: list[Any]) -> None:
