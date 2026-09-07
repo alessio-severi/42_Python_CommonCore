@@ -15,7 +15,7 @@ This repository contains my own implementation of every exercise across the elev
 | Module 00 | Fundamentals — variables, functions, iteration, recursion |
 | Module 01 | Object-Oriented Programming — classes, encapsulation, inheritance |
 | Module 02 | Exception Handling — custom exceptions, `try`/`except`/`finally` |
-| Module 03 | Collections — lists, dictionaries, sets, tuples |
+| Module 03 | Collections — lists, dictionaries, sets, tuples; generators and `yield` |
 | Module 04 | File Handling — reading, writing, and securing file streams |
 | Module 05 | Abstract Classes & Polymorphism — `ABC`, method overriding, duck typing |
 | Module 06 | Modules & Packages — absolute/relative imports, circular dependencies |
