@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+#requests
+
+# With exact versions:
+# pandas==2.1.0
+# numpy==1.25.0
+# matplotlib==3.7.2
+# requests==2.31.0
