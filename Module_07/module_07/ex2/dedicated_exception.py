@@ -1,2 +1,0 @@
-class CreatureStrategyMismatchError(Exception):
-    pass
