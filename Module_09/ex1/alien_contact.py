@@ -39,13 +39,14 @@ class AlienContact(BaseModel):
         return self
 
     def show(self) -> None:
+        mr = self.message_received
         print(f'ID: {self.contact_id}\n'
               f'Type: {self.contact_type.value}\n'
               f'Location: {self.location}\n'
               f'Signal: {self.signal_strength}/10\n'
               f'Duration: {self.duration_minutes} minutes\n'
               f'Witnesses: {self.witness_count}'
-              f'{chr(10) + "Message: " + mr if (mr := self.message_received) else ""}'
+              f'{chr(10) + "Message: " + mr if mr else ""}'
 
 
 def main() -> None:
