@@ -46,7 +46,7 @@ class AlienContact(BaseModel):
               f'Signal: {self.signal_strength}/10\n'
               f'Duration: {self.duration_minutes} minutes\n'
               f'Witnesses: {self.witness_count}'
-              f'{chr(10) + "Message: " + mr if mr else ""}'
+              f'{chr(10) + "Message: " + mr if mr else ""}')
 
 
 def main() -> None:
