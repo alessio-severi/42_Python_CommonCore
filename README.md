@@ -42,10 +42,6 @@ Every exercise complies with:
 - **flake8** coding standard
 - **mypy** for static type checking, with comprehensive type annotations throughout
 
-## A Note on the Subjects
-
-The original exercise subjects (`en.subject.pdf` in each module) are the intellectual property of 42 School and are included here for educational and reference purposes only — not as an official or authorized redistribution.
-
 ## License
 
-This repository is released under the [MIT License](https://github.com/alessio-severi/42_Python_CommonCore/blob/main/LICENSE). The license applies exclusively to the original content of this repository — the Python solutions and any accompanying explanations written by me — and does not extend to the exercise subjects, which remain the property of 42 School as described above.
+This repository is released under the [MIT License](https://github.com/alessio-severi/42_Python_CommonCore/blob/main/LICENSE). The license applies exclusively to the original content of this repository — the Python solutions and any accompanying explanations written by me —.
